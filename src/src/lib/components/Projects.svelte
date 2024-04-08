@@ -1,7 +1,6 @@
 <script lang="ts">
 	import GhostContentAPI from '@tryghost/content-api';
 	import type { Post, PostMetadata } from '$lib/types/Post';
-	import { projects_to_show } from '$lib/stores';
 	import { fade } from 'svelte/transition';
 
 	import { onMount } from 'svelte';
@@ -45,15 +44,18 @@
 			>
 				{#if project.feature_image}
 					<a href={project.url}>
-						<figure class="h-40 transition-all group-hover:h-48">
+						<figure class="h-40 transition-all">
 							<img src={project.feature_image} alt={project.feature_image_alt} />
 						</figure>
 					</a>
 				{/if}
 				<div class="card-body border-t-info border-4">
-					<a class="card-title" href={project.url}>
-						{project.title}
-					</a>
+					<div class="grid">
+						<a class="card-title" href={project.url}>
+							{project.title}
+						</a>
+						<p>{new Date(project.published_at).toDateString()}</p>
+					</div>
 					<div class="flex space-x-2">
 						{#if project.metadata}
 							{#if project.metadata.LiveURL}
@@ -71,7 +73,7 @@
 						{/if}
 					</div>
 					<p
-						class="h-fit max-h-40 min-h-20 overflow-hidden"
+						class="h-fit max-h-40 min-h-20 overflow-hidden transition-all"
 						style="-webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);"
 					>
 						<!-- Thanks https://stackoverflow.com/a/73194222/ -->
