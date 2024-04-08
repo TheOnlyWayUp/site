@@ -22,17 +22,27 @@
 		</p>
 
 		<div class="m-4 grid p-5 text-left outline-dashed">
-			<a href="https://discord.com/users/876055467678375998" class="tooltip" data-tip="TheOnlyWayUp"
-				>Discord (TheOnlyWayUp)</a
+			<a
+				href="https://discord.com/users/876055467678375998"
+				class="tooltip"
+				data-tip="TheOnlyWayUp"
+				target="_blank">Discord (TheOnlyWayUp)</a
 			>
-			<a href="mailto:dhanush@rambhat.la" class="tooltip" data-tip="dhanush@rambhat.la"
-				>Mail (dhanush@rambhat.la)</a
+			<a
+				href="mailto:dhanush@rambhat.la"
+				class="tooltip"
+				data-tip="dhanush@rambhat.la"
+				target="_blank">Mail (dhanush@rambhat.la)</a
 			><a
 				href="https://www.linkedin.com/in/dhanush-r-06186524b/"
 				class="tooltip"
-				data-tip="Dhanush-R">LinkedIn (Dhanush R)</a
-			><a href="https://github.com/TheOnlyWayUp" class="tooltip" data-tip="TheOnlyWayUp"
-				>GitHub (TheOnlyWayUp)</a
+				data-tip="Dhanush-R"
+				target="_blank">LinkedIn (Dhanush R)</a
+			><a
+				href="https://github.com/TheOnlyWayUp"
+				class="tooltip"
+				data-tip="TheOnlyWayUp"
+				target="_blank">GitHub (TheOnlyWayUp)</a
 			>
 		</div>
 	</div>
