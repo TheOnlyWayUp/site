@@ -5,7 +5,7 @@
 <div class="grid max-w-md place-items-center">
 	<div class="p-5">
 		<img
-			class="max-w-md rounded-md"
+			class="rounded-md sm:max-w-md"
 			src="https://raw.githubusercontent.com/DenverCoder1/minimalistic-wallpaper-collection/main/images/rmradev-peaceful-lake.png"
 			alt="background"
 		/>

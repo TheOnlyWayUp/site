@@ -71,7 +71,7 @@
 						{/if}
 					</div>
 					<p
-						class="h-40 overflow-hidden"
+						class="h-fit max-h-40 min-h-20 overflow-hidden"
 						style="-webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);"
 					>
 						<!-- Thanks https://stackoverflow.com/a/73194222/ -->
