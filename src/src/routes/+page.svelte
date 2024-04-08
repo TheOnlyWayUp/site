@@ -2,10 +2,10 @@
 	import Projects from '$lib/components/Projects.svelte';
 </script>
 
-<div class="grid w-screen place-items-center">
+<div class="grid max-w-md place-items-center">
 	<div class="p-5">
 		<img
-			class="rounded-md"
+			class="max-w-md rounded-md"
 			src="https://raw.githubusercontent.com/DenverCoder1/minimalistic-wallpaper-collection/main/images/rmradev-peaceful-lake.png"
 			alt="background"
 		/>
@@ -21,9 +21,19 @@
 			<a class="!decoration-info font-semibold" href="https://blog.rambhat.la">write about them</a>.
 		</p>
 
-		<div class="m-4 p-5 text-left outline-dashed">
-			<p>Discord: TheOnlyWayUp</p>
-			<p>Email: dhanush@rambhat.la</p>
+		<div class="m-4 grid p-5 text-left outline-dashed">
+			<a href="https://discord.com/users/876055467678375998" class="tooltip" data-tip="TheOnlyWayUp"
+				>Discord (TheOnlyWayUp)</a
+			>
+			<a href="mailto:dhanush@rambhat.la" class="tooltip" data-tip="dhanush@rambhat.la"
+				>Mail (dhanush@rambhat.la)</a
+			><a
+				href="https://www.linkedin.com/in/dhanush-r-06186524b/"
+				class="tooltip"
+				data-tip="Dhanush-R">LinkedIn (Dhanush R)</a
+			><a href="https://github.com/TheOnlyWayUp" class="tooltip" data-tip="TheOnlyWayUp"
+				>GitHub (TheOnlyWayUp)</a
+			>
 		</div>
 	</div>
 

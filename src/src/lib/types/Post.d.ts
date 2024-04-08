@@ -82,7 +82,6 @@ export interface Post {
   
   export interface PostMetadata {
     // This is manually typed into the post's excerpt field.
-    repo?: string;  // Repository URL
-    live?: string;  // Live website URL
-    post?: string;  // Full blog-post URL
+    Repository?: string;  // Repository URL
+    LiveURL?: string;  // Live website URL
   }
