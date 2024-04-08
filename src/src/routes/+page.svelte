@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Friends from '$lib/components/Friends.svelte';
 	import Projects from '$lib/components/Projects.svelte';
 </script>
 
@@ -48,6 +49,7 @@
 	</div>
 
 	<Projects />
+	<Friends />
 </div>
 
 <style>
