@@ -82,7 +82,7 @@
 					</p>
 					<div class="card-actions justify-end">
 						{#each project.tags || [] as tag}
-							{#if !tag.name.startsWith('#') || tag.name == 'projects'}
+							{#if !(tag.name == 'projects') && !tag.name.startsWith('#')}
 								<a class="badge badge-outline hover:badge-info p-4" href={tag.url}>
 									<span class="hover:text-white">{tag.name}</span>
 								</a>
