@@ -25,7 +25,7 @@
 	const projects = [
 		{
 			name: 'Audora',
-			desc: 'Audiobooks for fanfiction readers — TTS pipeline infrastructure turning long-form fic into listenable audio.',
+			desc: 'Turns fiction into audiobooks where every character speaks with their own voice — casting, performance, and audio pipeline built from scratch.',
 			meta: 'YC S26 · founder',
 			links: [{ label: 'live', href: 'https://audora.art' }]
 		},
@@ -173,8 +173,8 @@
 			I build large-scale systems, break things responsibly, and
 			<a href="https://blog.rambhat.la">write about it</a>. Currently: founder at
 			<a href="https://audora.art" target="_blank" rel="noreferrer">Audora</a>
-			<span class="text-[color:var(--accent)]">(YC S26)</span> — audiobooks for fanfiction readers
-			— and archival infrastructure at
+			<span class="text-[color:var(--accent)]">(YC S26)</span> — audiobooks for fiction, where
+			every character has their own voice — and archival infrastructure at
 			<a href="https://wpd.my" target="_blank" rel="noreferrer">WP Archive</a> (1M+ visits/month).
 		</p>
 
