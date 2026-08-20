@@ -24,6 +24,12 @@
 
 	const projects = [
 		{
+			name: 'Audora',
+			desc: 'Audiobooks for fanfiction readers — TTS pipeline infrastructure turning long-form fic into listenable audio.',
+			meta: 'YC S26 · founder',
+			links: [{ label: 'live', href: 'https://audora.art' }]
+		},
+		{
 			name: 'WP Archive',
 			desc: 'Digital book archival platform. Crossed 1,000,000 visits in March 2025 alone; ML-based recommendations used by 4,000+ readers.',
 			meta: '2023 — present',
@@ -43,8 +49,9 @@
 			desc: 'Async-first libraries in Python and Rust, 65,000+ downloads over 4 years: wattpad-py, wattpad-rs, mcstalker, async-animanga, discord-colorize.',
 			meta: 'python · rust',
 			links: [
-				{ label: 'wattpad-py', href: 'https://github.com/TheOnlyWayUp/Wattpad-Py' },
-				{ label: 'wattpad-rs', href: 'https://github.com/TheOnlyWayUp/wattpad-rs' }
+				{ label: 'wattpad-py docs', href: 'https://wattpad-py.readthedocs.io/en/latest/' },
+				{ label: 'crates.io/wattpad-rs', href: 'https://crates.io/crates/wattpad-rs' },
+				{ label: 'repo ★12', href: 'https://github.com/TheOnlyWayUp/Wattpad-Py' }
 			]
 		},
 		{
@@ -69,13 +76,19 @@
 			name: 'PanchangamLite',
 			desc: 'Vedic astrology timing calculator, originally built for family. 300+ monthly users.',
 			meta: 'svelte',
-			links: [{ label: 'repo', href: 'https://github.com/TheOnlyWayUp/PanchangamLite' }]
+			links: [
+				{ label: 'live', href: 'https://panchangam.rambhat.la' },
+				{ label: 'repo', href: 'https://github.com/TheOnlyWayUp/PanchangamLite' }
+			]
 		},
 		{
 			name: 'WP-DM-Export',
 			desc: 'When Wattpad announced all DMs would be deleted, built an exporter so people could save theirs before the purge.',
 			meta: '2024',
-			links: [{ label: 'repo', href: 'https://github.com/TheOnlyWayUp/WP-DM-Export' }]
+			links: [
+				{ label: 'live', href: 'https://export.towu.dev' },
+				{ label: 'repo', href: 'https://github.com/TheOnlyWayUp/WP-DM-Export' }
+			]
 		}
 	];
 
@@ -132,6 +145,22 @@
 
 	const activeRepos = repos.filter((r) => !r.archived);
 	const archivedRepos = repos.filter((r) => r.archived);
+
+	// github-derived stats (baked from the live API at build time)
+	const totalStars = repos.reduce((s, r) => s + r.stars, 0);
+	const langCounts: [string, number][] = Object.entries(
+		repos.reduce(
+			(m, r) => {
+				if (r.lang) m[r.lang] = (m[r.lang] ?? 0) + 1;
+				return m;
+			},
+			{} as Record<string, number>
+		)
+	)
+		.sort((a, b) => b[1] - a[1])
+		.slice(0, 5);
+	const maxLang = langCounts[0]?.[1] ?? 1;
+	const bar = (n: number) => '█'.repeat(Math.max(1, Math.round((n / maxLang) * 16)));
 </script>
 
 <main class="mx-auto max-w-2xl px-5 py-14 text-[15px] leading-relaxed">
@@ -142,9 +171,11 @@
 		<p class="text-[color:var(--dim)]">@TheOnlyWayUp · Hyderabad, India</p>
 		<p class="mt-4">
 			I build large-scale systems, break things responsibly, and
-			<a href="https://blog.rambhat.la">write about it</a>. Currently: archival infrastructure at
-			<a href="https://wpd.my" target="_blank" rel="noreferrer">WP Archive</a> (1M+ visits/month) and
-			semantic search over 1.7M court cases.
+			<a href="https://blog.rambhat.la">write about it</a>. Currently: founder at
+			<a href="https://audora.art" target="_blank" rel="noreferrer">Audora</a>
+			<span class="text-[color:var(--accent)]">(YC S26)</span> — audiobooks for fanfiction readers
+			— and archival infrastructure at
+			<a href="https://wpd.my" target="_blank" rel="noreferrer">WP Archive</a> (1M+ visits/month).
 		</p>
 
 		<ul class="mt-5 flex flex-wrap gap-x-4 gap-y-1">
@@ -202,9 +233,30 @@
 		</p>
 	</section>
 
-	<!-- open source -->
+	<!-- github -->
 	<section class="mt-14">
-		<p class="prompt">~/towu <span class="text-[color:var(--accent)]">$</span> git shortlog --open-source</p>
+		<p class="prompt">~/towu <span class="text-[color:var(--accent)]">$</span> gh stats</p>
+		<p class="mt-4">
+			<a href="https://github.com/TheOnlyWayUp" target="_blank" rel="noreferrer">@TheOnlyWayUp</a>
+			since 2020 · <span class="text-[color:var(--accent)]">★{totalStars}</span> across
+			{repos.length} original repos · 153 followers
+		</p>
+		<div class="mt-3 space-y-0.5 text-sm">
+			{#each langCounts as [lang, count]}
+				<p class="whitespace-nowrap">
+					<span class="inline-block w-24 text-[color:var(--dim)]"
+						>{lang === 'Jupyter Notebook' ? 'jupyter' : lang.toLowerCase()}</span
+					>
+					<span class="text-[color:var(--accent-dim)]">{bar(count)}</span>
+					<span class="text-[color:var(--dim)]"> {count}</span>
+				</p>
+			{/each}
+		</div>
+		<p class="mt-3 text-sm text-[color:var(--dim)]">
+			currently learning rust. yes, I refactor every 3 business days — how did you know?
+		</p>
+
+		<p class="prompt mt-8">~/towu <span class="text-[color:var(--accent)]">$</span> git shortlog --open-source</p>
 		<ul class="mt-4 list-inside space-y-1">
 			{#each oss as line}
 				<li><span class="text-[color:var(--accent-dim)]">*</span> {line}</li>
