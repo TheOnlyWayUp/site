@@ -1,0 +1,43 @@
+bookface-companion-personal	0	JavaScript	-	-	2026-07-13	false
+WattpadDownloader	314	Svelte	Wattpad Books to EPUB Files. 🪙Download Paid Stories! Metadata and Cover Support 🏷️, Lightweight Frontend 🐇, Dockerized 🐳, Rapid Generation ⚡, API Support 🌐	https://wpd.my	2026-06-17	false
+wattpad-rs	2	Rust	🦀🌐 Blazingly fast asynchronous wrapper for the Wattpad API	https://crates.io/crates/wattpad-rs	2025-04-30	false
+TheOnlyWayUp	4	-	Config files for my GitHub profile.	https://github.com/TheOnlyWayUp	2025-04-18	false
+StanfordPhilosophyViz	0	Jupyter Notebook	-	-	2024-12-12	false
+site	1	Svelte	https://rambhat.la	-	2024-07-17	false
+WP-DM-Export	3	Svelte	Wattpad is deleting all DMs on May 6th 2024, this WebApp allows you to export and save them to your device.	https://export.towu.dev	2024-04-27	false
+Twitch-Chat-Joiner	4	Python	🤖🌐 Twitch Selfbot that earns StreamElements Points for you		2024-04-23	false
+PanchangamLite	1	Svelte	🌐📄 Minimalist Panchangam with Tarabalam	https://panchangam.rambhat.la	2024-04-16	false
+Wattpad-Py	12	Python	⚡🐍 Fast, Pythonic, Asynchronous, Fully-Typed, and Well-Documented. `wattpad-py` is the _only_ Wattpad API Wrapper for Python.	https://wattpad-py.readthedocs.io/en/latest/	2024-02-03	false
+Artificial-Whitelist	4	Python	🕵️🔐 Implement a whitelist (without OP) to prevent malicious users from entering a public server. Enforce access-control, and manage the system via an API, or Discord Bot. Developer-Friendly, Docker-Compose.		2023-08-21	false
+youtube-qna	1	JavaScript	Chat with a Youtube Channel, timestamped sources included in response.	-	2023-06-09	false
+Template-Selfbot	6	Python	Personal discord.py-self Selfbot Template.		2022-10-27	false
+Template-API	6	Python	Personal FastAPI API Template.	-	2022-09-19	false
+selfcord	3	Python	Discord.py-self temp copy	-	2022-06-12	false
+check_if_server_cracked	3	Python	Checks if a minecraft server is cracked by observing players online		2022-06-04	false
+VulnStable	2	Python	-	-	2022-05-18	false
+Template-Website	4	Python	Personal FastAPI & Jinja2 Website Template.	-	2022-05-08	false
+Template-Bot	3	Python	Personal discord.py Bot template.		2022-04-08	false
+apiProxy	3	Python	-	-	2022-03-11	false
+Pterodactyl-PowerAction	0	-	A Discord Bot Which Can Be Used To Control Your Pterodactyl Server's Power Actions	-	2022-02-27	false
+autoLinkPoster	4	Python	-	-	2022-02-16	false
+moderatorReactBot	3	Python	👮💬 Approve/Deny Discord Users after they post an introduction message.		2022-02-11	false
+kekda-py	0	-	-	kekda-py.vercel.app	2022-02-10	false
+roleInviteBot	2	Python	Invite Management Bot		2022-02-05	false
+roleWhitelist	4	Python	🏆💬 Remove a role from a Discord User if they are inactive for a certain period of time.		2022-02-05	false
+Card-Generator	0	-	Website to generate Cards and share them	https://megarion.github.io/Card-Generator	2022-02-04	false
+rebase	0	Python	-	-	2022-01-18	false
+hangmanSolver	1	Python	Solves words for hangman by scraping a website.	-	2021-12-29	false
+mcStalkerApiWrapper	6	Python	A Python Wrapper for the MCStalker API. MCStalker has been discontinued, and the API taken offline, hence this wrapper is no longer functional.		2021-12-13	false
+scamChecker	4	Python	Check a discord message and give it a percentage of scamminess	-	2021-11-23	false
+TheEtherBot	3	Python	I learnt a decent amount of SQL from this, one of my first projects using it actually, was a great learning experience.		2021-11-21	true
+VulnRemake	3	Python	A rewrite of one of my first Discord Bots, I learnt about cogs, asynchronousness and other useful concepts while making this.		2021-10-19	true
+MinecraftServerInfo-Discord	2	Python	-	-	2021-10-15	false
+DiscordBotSilencer	0	-	Silencer bot for discord	-	2021-10-13	false
+practice_tower_defense	0	-	-	-	2021-10-09	false
+ScrumBot	1	Python	A Bot that would ask you questions regarding your productivity and generate an image out of it, I got a chance to practice my PIL skills on this.		2021-10-01	true
+Discord.py-Error-handler	2	Python	-	-	2021-09-21	false
+Async-Animanga	4	Python	The async ready version of the AniManga library created by centipede000.	-	2021-09-12	false
+discordpy-matplotlib	2	Python	-	-	2021-08-07	false
+classesTest	2	-	-	-	2021-06-21	false
+markdown-portfolio	1	-	-	https://lab.github.com/githubtraining/communicating-using-markdown	2020-12-19	false
+hello-github-actions	1	-	-	https://lab.github.com/githubtraining/github-actions:-hello-world	2020-12-19	false

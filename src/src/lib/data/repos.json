@@ -1,0 +1,389 @@
+[
+ {
+  "name": "WattpadDownloader",
+  "stars": 314,
+  "lang": "Svelte",
+  "desc": "Wattpad Books to EPUB Files. 🪙Download Paid Stories! Metadata and Cover Support 🏷️, Lightweight Frontend 🐇, Dockerized 🐳, Rapid Generation ⚡, API Support 🌐",
+  "homepage": "https://wpd.my",
+  "pushed": "2026-06-17",
+  "archived": false
+ },
+ {
+  "name": "Wattpad-Py",
+  "stars": 12,
+  "lang": "Python",
+  "desc": "⚡🐍 Fast, Pythonic, Asynchronous, Fully-Typed, and Well-Documented. `wattpad-py` is the _only_ Wattpad API Wrapper for Python.",
+  "homepage": "https://wattpad-py.readthedocs.io/en/latest/",
+  "pushed": "2024-02-03",
+  "archived": false
+ },
+ {
+  "name": "Template-Selfbot",
+  "stars": 6,
+  "lang": "Python",
+  "desc": "Personal discord.py-self Selfbot Template.",
+  "homepage": null,
+  "pushed": "2022-10-27",
+  "archived": false
+ },
+ {
+  "name": "Template-API",
+  "stars": 6,
+  "lang": "Python",
+  "desc": "Personal FastAPI API Template.",
+  "homepage": null,
+  "pushed": "2022-09-19",
+  "archived": false
+ },
+ {
+  "name": "mcStalkerApiWrapper",
+  "stars": 6,
+  "lang": "Python",
+  "desc": "A Python Wrapper for the MCStalker API. MCStalker has been discontinued, and the API taken offline, hence this wrapper is no longer functional.",
+  "homepage": null,
+  "pushed": "2021-12-13",
+  "archived": false
+ },
+ {
+  "name": "TheOnlyWayUp",
+  "stars": 4,
+  "lang": null,
+  "desc": "Config files for my GitHub profile.",
+  "homepage": "https://github.com/TheOnlyWayUp",
+  "pushed": "2025-04-18",
+  "archived": false
+ },
+ {
+  "name": "Twitch-Chat-Joiner",
+  "stars": 4,
+  "lang": "Python",
+  "desc": "🤖🌐 Twitch Selfbot that earns StreamElements Points for you",
+  "homepage": null,
+  "pushed": "2024-04-23",
+  "archived": false
+ },
+ {
+  "name": "Artificial-Whitelist",
+  "stars": 4,
+  "lang": "Python",
+  "desc": "🕵️🔐 Implement a whitelist (without OP) to prevent malicious users from entering a public server. Enforce access-control, and manage the system via an API, or Discord Bot. Developer-Friendly, Docker-Compose.",
+  "homepage": null,
+  "pushed": "2023-08-21",
+  "archived": false
+ },
+ {
+  "name": "Template-Website",
+  "stars": 4,
+  "lang": "Python",
+  "desc": "Personal FastAPI & Jinja2 Website Template.",
+  "homepage": null,
+  "pushed": "2022-05-08",
+  "archived": false
+ },
+ {
+  "name": "autoLinkPoster",
+  "stars": 4,
+  "lang": "Python",
+  "desc": null,
+  "homepage": null,
+  "pushed": "2022-02-16",
+  "archived": false
+ },
+ {
+  "name": "roleWhitelist",
+  "stars": 4,
+  "lang": "Python",
+  "desc": "🏆💬 Remove a role from a Discord User if they are inactive for a certain period of time.",
+  "homepage": null,
+  "pushed": "2022-02-05",
+  "archived": false
+ },
+ {
+  "name": "scamChecker",
+  "stars": 4,
+  "lang": "Python",
+  "desc": "Check a discord message and give it a percentage of scamminess",
+  "homepage": null,
+  "pushed": "2021-11-23",
+  "archived": false
+ },
+ {
+  "name": "Async-Animanga",
+  "stars": 4,
+  "lang": "Python",
+  "desc": "The async ready version of the AniManga library created by centipede000.",
+  "homepage": null,
+  "pushed": "2021-09-12",
+  "archived": false
+ },
+ {
+  "name": "WP-DM-Export",
+  "stars": 3,
+  "lang": "Svelte",
+  "desc": "Wattpad is deleting all DMs on May 6th 2024, this WebApp allows you to export and save them to your device.",
+  "homepage": "https://export.towu.dev",
+  "pushed": "2024-04-27",
+  "archived": false
+ },
+ {
+  "name": "selfcord",
+  "stars": 3,
+  "lang": "Python",
+  "desc": "Discord.py-self temp copy",
+  "homepage": null,
+  "pushed": "2022-06-12",
+  "archived": false
+ },
+ {
+  "name": "check_if_server_cracked",
+  "stars": 3,
+  "lang": "Python",
+  "desc": "Checks if a minecraft server is cracked by observing players online",
+  "homepage": null,
+  "pushed": "2022-06-04",
+  "archived": false
+ },
+ {
+  "name": "Template-Bot",
+  "stars": 3,
+  "lang": "Python",
+  "desc": "Personal discord.py Bot template.",
+  "homepage": null,
+  "pushed": "2022-04-08",
+  "archived": false
+ },
+ {
+  "name": "apiProxy",
+  "stars": 3,
+  "lang": "Python",
+  "desc": null,
+  "homepage": null,
+  "pushed": "2022-03-11",
+  "archived": false
+ },
+ {
+  "name": "moderatorReactBot",
+  "stars": 3,
+  "lang": "Python",
+  "desc": "👮💬 Approve/Deny Discord Users after they post an introduction message.",
+  "homepage": null,
+  "pushed": "2022-02-11",
+  "archived": false
+ },
+ {
+  "name": "TheEtherBot",
+  "stars": 3,
+  "lang": "Python",
+  "desc": "I learnt a decent amount of SQL from this, one of my first projects using it actually, was a great learning experience.",
+  "homepage": null,
+  "pushed": "2021-11-21",
+  "archived": true
+ },
+ {
+  "name": "VulnRemake",
+  "stars": 3,
+  "lang": "Python",
+  "desc": "A rewrite of one of my first Discord Bots, I learnt about cogs, asynchronousness and other useful concepts while making this.",
+  "homepage": null,
+  "pushed": "2021-10-19",
+  "archived": true
+ },
+ {
+  "name": "wattpad-rs",
+  "stars": 2,
+  "lang": "Rust",
+  "desc": "🦀🌐 Blazingly fast asynchronous wrapper for the Wattpad API",
+  "homepage": "https://crates.io/crates/wattpad-rs",
+  "pushed": "2025-04-30",
+  "archived": false
+ },
+ {
+  "name": "VulnStable",
+  "stars": 2,
+  "lang": "Python",
+  "desc": null,
+  "homepage": null,
+  "pushed": "2022-05-18",
+  "archived": false
+ },
+ {
+  "name": "roleInviteBot",
+  "stars": 2,
+  "lang": "Python",
+  "desc": "Invite Management Bot",
+  "homepage": null,
+  "pushed": "2022-02-05",
+  "archived": false
+ },
+ {
+  "name": "MinecraftServerInfo-Discord",
+  "stars": 2,
+  "lang": "Python",
+  "desc": null,
+  "homepage": null,
+  "pushed": "2021-10-15",
+  "archived": false
+ },
+ {
+  "name": "Discord.py-Error-handler",
+  "stars": 2,
+  "lang": "Python",
+  "desc": null,
+  "homepage": null,
+  "pushed": "2021-09-21",
+  "archived": false
+ },
+ {
+  "name": "discordpy-matplotlib",
+  "stars": 2,
+  "lang": "Python",
+  "desc": null,
+  "homepage": null,
+  "pushed": "2021-08-07",
+  "archived": false
+ },
+ {
+  "name": "classesTest",
+  "stars": 2,
+  "lang": null,
+  "desc": null,
+  "homepage": null,
+  "pushed": "2021-06-21",
+  "archived": false
+ },
+ {
+  "name": "site",
+  "stars": 1,
+  "lang": "Svelte",
+  "desc": "https://rambhat.la",
+  "homepage": null,
+  "pushed": "2024-07-17",
+  "archived": false
+ },
+ {
+  "name": "PanchangamLite",
+  "stars": 1,
+  "lang": "Svelte",
+  "desc": "🌐📄 Minimalist Panchangam with Tarabalam",
+  "homepage": "https://panchangam.rambhat.la",
+  "pushed": "2024-04-16",
+  "archived": false
+ },
+ {
+  "name": "youtube-qna",
+  "stars": 1,
+  "lang": "JavaScript",
+  "desc": "Chat with a Youtube Channel, timestamped sources included in response.",
+  "homepage": null,
+  "pushed": "2023-06-09",
+  "archived": false
+ },
+ {
+  "name": "hangmanSolver",
+  "stars": 1,
+  "lang": "Python",
+  "desc": "Solves words for hangman by scraping a website.",
+  "homepage": null,
+  "pushed": "2021-12-29",
+  "archived": false
+ },
+ {
+  "name": "ScrumBot",
+  "stars": 1,
+  "lang": "Python",
+  "desc": "A Bot that would ask you questions regarding your productivity and generate an image out of it, I got a chance to practice my PIL skills on this.",
+  "homepage": null,
+  "pushed": "2021-10-01",
+  "archived": true
+ },
+ {
+  "name": "markdown-portfolio",
+  "stars": 1,
+  "lang": null,
+  "desc": null,
+  "homepage": "https://lab.github.com/githubtraining/communicating-using-markdown",
+  "pushed": "2020-12-19",
+  "archived": false
+ },
+ {
+  "name": "hello-github-actions",
+  "stars": 1,
+  "lang": null,
+  "desc": null,
+  "homepage": "https://lab.github.com/githubtraining/github-actions:-hello-world",
+  "pushed": "2020-12-19",
+  "archived": false
+ },
+ {
+  "name": "bookface-companion-personal",
+  "stars": 0,
+  "lang": "JavaScript",
+  "desc": null,
+  "homepage": null,
+  "pushed": "2026-07-13",
+  "archived": false
+ },
+ {
+  "name": "StanfordPhilosophyViz",
+  "stars": 0,
+  "lang": "Jupyter Notebook",
+  "desc": null,
+  "homepage": null,
+  "pushed": "2024-12-12",
+  "archived": false
+ },
+ {
+  "name": "Pterodactyl-PowerAction",
+  "stars": 0,
+  "lang": null,
+  "desc": "A Discord Bot Which Can Be Used To Control Your Pterodactyl Server's Power Actions",
+  "homepage": null,
+  "pushed": "2022-02-27",
+  "archived": false
+ },
+ {
+  "name": "kekda-py",
+  "stars": 0,
+  "lang": null,
+  "desc": null,
+  "homepage": "kekda-py.vercel.app",
+  "pushed": "2022-02-10",
+  "archived": false
+ },
+ {
+  "name": "Card-Generator",
+  "stars": 0,
+  "lang": null,
+  "desc": "Website to generate Cards and share them",
+  "homepage": "https://megarion.github.io/Card-Generator",
+  "pushed": "2022-02-04",
+  "archived": false
+ },
+ {
+  "name": "rebase",
+  "stars": 0,
+  "lang": "Python",
+  "desc": null,
+  "homepage": null,
+  "pushed": "2022-01-18",
+  "archived": false
+ },
+ {
+  "name": "DiscordBotSilencer",
+  "stars": 0,
+  "lang": null,
+  "desc": "Silencer bot for discord",
+  "homepage": null,
+  "pushed": "2021-10-13",
+  "archived": false
+ },
+ {
+  "name": "practice_tower_defense",
+  "stars": 0,
+  "lang": null,
+  "desc": null,
+  "homepage": null,
+  "pushed": "2021-10-09",
+  "archived": false
+ }
+]

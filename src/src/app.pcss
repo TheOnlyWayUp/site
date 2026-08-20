@@ -1,4 +1,30 @@
 /* Write your global styles here, in PostCSS syntax */
 @tailwind base;
 @tailwind components;
-@tailwind utilities
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--bg: #0b0c0e;
+		--panel: #141619;
+		--border: #26292f;
+		--text: #e6e6e9;
+		--dim: #94949e;
+		--accent: #ffb454;
+		--accent-dim: #b57e3b;
+	}
+
+	html {
+		background: var(--bg);
+		color: var(--text);
+		font-family:
+			ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas,
+			'Liberation Mono', monospace;
+		scrollbar-color: var(--border) var(--bg);
+	}
+
+	::selection {
+		background: var(--accent);
+		color: var(--bg);
+	}
+}
