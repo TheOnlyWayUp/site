@@ -111,10 +111,21 @@
 		}
 	];
 
-	const oss = [
-		'1,200+ open-source contributions across 2023-2024',
-		'LangChain, cal.com, Meta’s Audiocraft, daisyUI, koreader-calibre-plugin',
-		'maintainer of libraries at 10,000-20,000+ downloads each'
+	const oss: { text: string; href?: string; dim?: boolean }[] = [
+		{
+			text: '5,200+ contributions since 2021 — 1,680 in 2024 alone',
+			href: 'https://github.com/TheOnlyWayUp'
+		},
+		{
+			text: '83 PRs merged into 50+ repos I don’t own — LangChain, daisyUI, Pyodide, DSPy, Starlette, cal.com, KOReader plugins…',
+			href: 'https://github.com/search?q=is%3Apr+author%3ATheOnlyWayUp+is%3Amerged+-user%3ATheOnlyWayUp&type=pullrequests'
+		},
+		{
+			text: 'shipped real fixes like legacy-format compatibility for koreader-calibre-plugin',
+			href: 'https://github.com/kyxap/koreader-calibre-plugin/pull/51'
+		},
+		{ text: 'maintainer of libraries at 10,000-20,000+ downloads each' },
+		{ text: 'and yes, some of those 83 are typo fixes. typos are bugs.', dim: true }
 	];
 
 	// ---- latest writing (Ghost, graceful fail) ----------------------------
@@ -259,7 +270,13 @@
 		<p class="prompt mt-8">~/towu <span class="text-[color:var(--accent)]">$</span> git shortlog --open-source</p>
 		<ul class="mt-4 list-inside space-y-1">
 			{#each oss as line}
-				<li><span class="text-[color:var(--accent-dim)]">*</span> {line}</li>
+				<li class:text-sm={line.dim} class:text-[color:var(--dim)]={line.dim}>
+					<span class="text-[color:var(--accent-dim)]">*</span>
+					{line.text}
+					{#if line.href}
+						<a class="text-sm" href={line.href} target="_blank" rel="noreferrer">↗</a>
+					{/if}
+				</li>
 			{/each}
 		</ul>
 
