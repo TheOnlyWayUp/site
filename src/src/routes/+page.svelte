@@ -33,10 +33,7 @@
 			name: 'WP Archive',
 			desc: 'Digital book archival platform. Crossed 1,000,000 visits in March 2025 alone; ML-based recommendations used by 4,000+ readers.',
 			meta: '2023 — present',
-			links: [
-				{ label: 'live', href: 'https://wpd.my' },
-				{ label: 'repo ★314', href: 'https://github.com/TheOnlyWayUp/WattpadDownloader' }
-			]
+			links: [{ label: 'live', href: 'https://wpd.my' }]
 		},
 		{
 			name: 'Case Search',
@@ -50,8 +47,7 @@
 			meta: 'python · rust',
 			links: [
 				{ label: 'wattpad-py docs', href: 'https://wattpad-py.readthedocs.io/en/latest/' },
-				{ label: 'crates.io/wattpad-rs', href: 'https://crates.io/crates/wattpad-rs' },
-				{ label: 'repo ★12', href: 'https://github.com/TheOnlyWayUp/Wattpad-Py' }
+				{ label: 'crates.io/wattpad-rs', href: 'https://crates.io/crates/wattpad-rs' }
 			]
 		},
 		{
@@ -70,25 +66,19 @@
 			name: 'YouTube QnA',
 			desc: 'Chatbot that answers from YouTube as a knowledge base, grounded in specific timestamped references instead of hallucinations.',
 			meta: '2023',
-			links: [{ label: 'repo', href: 'https://github.com/TheOnlyWayUp/youtube-qna' }]
+			links: []
 		},
 		{
 			name: 'PanchangamLite',
 			desc: 'Vedic astrology timing calculator, originally built for family. 300+ monthly users.',
 			meta: 'svelte',
-			links: [
-				{ label: 'live', href: 'https://panchangam.rambhat.la' },
-				{ label: 'repo', href: 'https://github.com/TheOnlyWayUp/PanchangamLite' }
-			]
+			links: [{ label: 'live', href: 'https://panchangam.rambhat.la' }]
 		},
 		{
 			name: 'WP-DM-Export',
 			desc: 'When Wattpad announced all DMs would be deleted, built an exporter so people could save theirs before the purge.',
 			meta: '2024',
-			links: [
-				{ label: 'live', href: 'https://export.towu.dev' },
-				{ label: 'repo', href: 'https://github.com/TheOnlyWayUp/WP-DM-Export' }
-			]
+			links: [{ label: 'live', href: 'https://export.towu.dev' }]
 		}
 	];
 
@@ -111,19 +101,12 @@
 		}
 	];
 
-	const oss: { text: string; href?: string; dim?: boolean }[] = [
+	const oss: { text: string; dim?: boolean }[] = [
+		{ text: '5,200+ contributions since 2021 — 1,680 in 2024 alone' },
 		{
-			text: '5,200+ contributions since 2021 — 1,680 in 2024 alone',
-			href: 'https://github.com/TheOnlyWayUp'
+			text: '83 PRs merged into 50+ repos I don’t own — LangChain, daisyUI, Pyodide, DSPy, Starlette, cal.com, KOReader plugins…'
 		},
-		{
-			text: '83 PRs merged into 50+ repos I don’t own — LangChain, daisyUI, Pyodide, DSPy, Starlette, cal.com, KOReader plugins…',
-			href: 'https://github.com/search?q=is%3Apr+author%3ATheOnlyWayUp+is%3Amerged+-user%3ATheOnlyWayUp&type=pullrequests'
-		},
-		{
-			text: 'shipped real fixes like legacy-format compatibility for koreader-calibre-plugin',
-			href: 'https://github.com/kyxap/koreader-calibre-plugin/pull/51'
-		},
+		{ text: 'shipped real fixes like legacy-format compatibility for koreader-calibre-plugin' },
 		{ text: 'maintainer of libraries at 10,000-20,000+ downloads each' },
 		{ text: 'and yes, some of those 83 are typo fixes. typos are bugs.', dim: true }
 	];
@@ -178,13 +161,15 @@
 	<!-- hero -->
 	<section>
 		<p class="prompt">~/towu <span class="text-[color:var(--accent)]">$</span> whoami</p>
-		<h1 class="mt-3 text-3xl font-bold tracking-tight">Dhanush Rambhatla</h1>
+		<h1 class="mt-3 text-3xl font-bold tracking-tight text-[color:var(--emph)]">
+			Dhanush Rambhatla
+		</h1>
 		<p class="text-[color:var(--dim)]">@TheOnlyWayUp · Hyderabad, India</p>
 		<p class="mt-4">
 			I build large-scale systems, break things responsibly, and
 			<a href="https://blog.rambhat.la">write about it</a>. Currently: founder at
 			<a href="https://audora.art" target="_blank" rel="noreferrer">Audora</a>
-			<span class="text-[color:var(--accent)]">(YC S26)</span> — audiobooks for fiction, where
+			<span class="font-bold text-[color:var(--emph)]">(YC S26)</span> — audiobooks for fiction, where
 			every character has their own voice — and archival infrastructure at
 			<a href="https://wpd.my" target="_blank" rel="noreferrer">WP Archive</a> (1M+ visits/month).
 		</p>
@@ -211,7 +196,7 @@
 			{#each projects as p}
 				<li class="border-l-2 border-[color:var(--border)] pl-4 transition-colors hover:border-[color:var(--accent)]">
 					<div class="flex flex-wrap items-baseline gap-x-3">
-						<span class="font-bold text-[color:var(--accent)]">{p.name}</span>
+						<span class="font-bold text-[color:var(--emph)]">{p.name}</span>
 						<span class="text-xs text-[color:var(--dim)]">{p.meta}</span>
 					</div>
 					<p class="mt-1 text-[color:var(--text)]">{p.desc}</p>
@@ -233,7 +218,7 @@
 		<ul class="mt-4 space-y-2">
 			{#each disclosures as d}
 				<li class="grid grid-cols-[7.5rem_1fr] gap-2">
-					<span class="text-right text-[color:var(--accent-dim)]">{d.target}</span>
+					<span class="text-right font-bold text-[color:var(--emph)]">{d.target}</span>
 					<span>{d.text}</span>
 				</li>
 			{/each}
@@ -248,8 +233,8 @@
 	<section class="mt-14">
 		<p class="prompt">~/towu <span class="text-[color:var(--accent)]">$</span> gh stats</p>
 		<p class="mt-4">
-			<a href="https://github.com/TheOnlyWayUp" target="_blank" rel="noreferrer">@TheOnlyWayUp</a>
-			since 2020 · <span class="text-[color:var(--accent)]">★{totalStars}</span> across
+			<span class="font-bold text-[color:var(--emph)]">@TheOnlyWayUp</span>
+			since 2020 · <span class="text-[color:var(--emph)]">★{totalStars}</span> across
 			{repos.length} original repos · 153 followers
 		</p>
 		<div class="mt-3 space-y-0.5 text-sm">
@@ -273,9 +258,6 @@
 				<li class:text-sm={line.dim} class:text-[color:var(--dim)]={line.dim}>
 					<span class="text-[color:var(--accent-dim)]">*</span>
 					{line.text}
-					{#if line.href}
-						<a class="text-sm" href={line.href} target="_blank" rel="noreferrer">↗</a>
-					{/if}
 				</li>
 			{/each}
 		</ul>
@@ -328,22 +310,14 @@
 	<section class="mt-14">
 		<p class="prompt">~/towu <span class="text-[color:var(--accent)]">$</span> ls friends/</p>
 		<p class="mt-4 text-[color:var(--dim)]">
-			ls: the 88x31 wall is being re-hung. <span class="text-[color:var(--accent)]">check back soon.</span>
+			ls: the 88x31 wall is being re-hung. <span class="font-bold text-[color:var(--emph)]">check back soon.</span>
 		</p>
 	</section>
 
 	<!-- footer -->
 	<footer class="mt-16 border-t border-[color:var(--border)] pt-4 text-xs text-[color:var(--dim)]">
-		<p>
-			© {new Date().getFullYear()} Dhanush Rambhatla · built with SvelteKit ·
-			<a
-				href="https://github.com/TheOnlyWayUp/site"
-				target="_blank"
-				rel="noreferrer">source</a
-			>
-			· commit <span class="text-[color:var(--accent-dim)]">{__COMMIT__}</span> ({__BUILT_AT__})
-		</p>
-		<p class="mt-1">no cookies, no trackers — just self-hosted, anonymous page counts.</p>
+		<p>© {new Date().getFullYear()} Dhanush Rambhatla</p>
+		<p class="mt-1">proudly selfhosted</p>
 	</footer>
 </main>
 
